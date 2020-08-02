@@ -2,7 +2,6 @@ name: rdkit_colab
 channels:
 - rdkit
 - conda-forge
-- mordred-descriptor
 dependencies:
 - rdkit
 - numpy
@@ -19,7 +18,6 @@ dependencies:
 - cudnn
 - tensorflow
 - umap-learn
-- mordred
 - pip:
   - selfies
   - mordred
