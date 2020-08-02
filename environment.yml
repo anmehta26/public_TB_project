@@ -20,4 +20,5 @@ dependencies:
 - umap-learn
 - pip:
   - selfies
+  - e3fp
   - mordred
