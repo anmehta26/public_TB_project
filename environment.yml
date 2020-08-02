@@ -16,7 +16,7 @@ dependencies:
 - tqdm
 - scikit-learn
 - cudnn
-- tensorflow
+- tensorflow-gpu
 - umap-learn
 - pip:
   - selfies
