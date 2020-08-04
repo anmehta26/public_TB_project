@@ -18,7 +18,7 @@ import yaml
 # Assumes miniconda3 latests is 3.7, might have to update if it changes.
 CONDA_DIR = '/usr/local/lib/python3.7/site-packages/'
 IN_COLAB = 'google.colab' in sys.modules
-CONDA_URL = 'https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh'
+CONDA_URL = 'https://repo.anaconda.com/miniconda/Miniconda3-py37_4.8.3-Linux-x86_64.sh'
 
 # Packages already present in colab.
 DEFAULT_CONDA_EXCLUDE = ['cudatoolkit', 'cudnn',
